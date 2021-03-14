@@ -2317,4 +2317,8 @@ class Instagram
             ['thread_ids' => json_encode($threadIds)]
         );
     }
+
+    public function getUserSession(){
+        return $this->userSession;
+    }
 }
